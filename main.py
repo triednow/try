@@ -11,9 +11,9 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-app_id = int(os.environ.get("API_ID", 12345))
-app_key = os.environ.get('API_HASH')
-token = os.environ.get('BOT_TOKEN')
+app_id = int(os.environ.get("API_ID", 23080322))
+app_key = os.environ.get('API_HASH',"b3611c291bf82d917637d61e4a136535")
+token = os.environ.get('BOT_TOKEN',"7494418251:AAGxFMT6hSjdGd53qoKxZAxsnZcDjOx6utU")
 
 app = Client("remove", app_id, app_key, bot_token=token)
 
